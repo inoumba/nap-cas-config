@@ -168,6 +168,14 @@
             } 
          ]
       },
+      "response-pages": [
+	{
+	    "responseContent": "<html><head><title>Custom Reject Page</title></head><body>This is a custom response page with a custom response Header.<br><br>Your support ID is: <%TS.request.ID()%><br><br><a href='javascript:history.back();'>[Go Back]</a></body></html>",
+	    "responseHeader": "HTTP/1.1 403 Forbidden\r\nCache-Control: no-cache\r\nPragma: no-cache\r\nConnection: close",
+	    "responseActionType": "custom",
+	    "responsePageType": "default"
+	}
+    ],
       "cookies" : [
          {
             "name" : "*",
