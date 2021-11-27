@@ -1,0 +1,11 @@
+{
+  "filter": {
+    "request_type": "illegal"
+  },
+  "content": {
+    "format": "user-defined",
+    "format_string": "\"date_time=%date_time%\",\"description=%attack_type%\",\"request=%request%\",\"protocol_info=%protocol_info%\",\"request_outcome=%outcome%\",\"request_outcome_reason=%outcome_reason%\",\"http_uri=%uri%\",\"http_response_code=%response_code%\",\"http_request_method=%method%\",\"http_hostname=%vs_name%\",\"http_remote_addr=%ip_client%\",\"http_remote_port=%src_port%\",\"http_server_addr=%dest_ip%\",\"http_server_port=%dest_port%\",\"support_id=%support_id%\",\"signature_ids=%sig_ids%\",\"policy_name=%policy_name%\",\"attack_types=%attack_type%\",\"violation_rating=%violation_rating%\",\"violations=%violations%\",\"sub_violations=%sub_violations%\",\"signature_cves=%sig_cves%\",\"x_forwarded_for_header_value=%x_forwarded_for_header_value%\",\"is_truncated=%is_truncated_bool%\",\"bot_anomalies=%bot_anomalies%\",\"bot_category=%bot_category%\",\"client_class=%client_class%\",\"bot_signature_name=%bot_signature_name%\",\"enforced_bot_anomalies=%enforced_bot_anomalies%\"",
+    "max_request_size": "any",
+    "max_message_size": "5k"
+  }
+}
